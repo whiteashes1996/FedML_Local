@@ -1,0 +1,13 @@
+INFO:root:load_data. dataset_name = mnist
+Traceback (most recent call last):
+  File "./MNIST-CNN-Non-IID.py", line 321, in <module>
+    main()
+  File "./MNIST-CNN-Non-IID.py", line 308, in main
+    dataset = load_data(args, args.dataset)
+  File "./MNIST-CNN-Non-IID.py", line 110, in load_data
+    class_num = load_partition_data_mnist(args.batch_size)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/MNIST/data_loader.py", line 89, in load_partition_data_mnist
+    users, groups, train_data, test_data = read_data(train_path, test_path)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/MNIST/data_loader.py", line 27, in read_data
+    train_files = os.listdir(train_data_dir)
+FileNotFoundError: [Errno 2] No such file or directory: './../../../data/MNIST/train'

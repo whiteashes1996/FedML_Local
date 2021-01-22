@@ -1,0 +1,66 @@
+INFO:root:load_data. dataset_name = femnist
+INFO:root:class_num = 62
+INFO:root:create_model. model_name = cnn, output_dim = 62
+INFO:root:CNN + FederatedEMNIST
+INFO:root:CNN_DropOut(
+  (conv2d_1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1))
+  (max_pooling): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2d_2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (dropout_1): Dropout(p=0.25, inplace=False)
+  (flatten): Flatten()
+  (linear_1): Linear(in_features=9216, out_features=128, bias=True)
+  (dropout_2): Dropout(p=0.5, inplace=False)
+  (linear_2): Linear(in_features=128, out_features=62, bias=True)
+  (relu): ReLU()
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:self.local_sample_number = 20
+INFO:root:self.local_sample_number = 22
+INFO:root:self.local_sample_number = 18
+INFO:root:self.local_sample_number = 20
+INFO:root:self.local_sample_number = 22
+INFO:root:self.local_sample_number = 23
+INFO:root:self.local_sample_number = 19
+INFO:root:self.local_sample_number = 17
+INFO:root:self.local_sample_number = 23
+INFO:root:self.local_sample_number = 18
+INFO:root:############setup_clients (END)#############
+INFO:root:################Communication round : 0
+INFO:root:client_indexes = [1450 1424 2424  678 3266  685  499 1774 3300 1773]
+INFO:root:client_indexes = [1450 1424 2424  678 3266  685  499 1774 3300 1773]
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.3680323414013118, 'training_loss': 2.813617003337134}
+INFO:root:{'test_acc': 0.3682485190299808, 'test_loss': 2.811877218719365}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = [ 605 3359 2440 1661 3312 2361 2912 2689 2809 1905]
+INFO:root:client_indexes = [ 605 3359 2440 1661 3312 2361 2912 2689 2809 1905]
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = [ 110 2651  137 1809 3281 1111 1987 1487  934 1416]
+INFO:root:client_indexes = [ 110 2651  137 1809 3281 1111 1987 1487  934 1416]
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = [2039 1364 2664 1515 2038  250 3058 3356 1235 1224]
+INFO:root:client_indexes = [2039 1364 2664 1515 2038  250 3058 3356 1235 1224]
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = [2380 2646 1804  826 3352 1112  313 1246 3218 2556]
+INFO:root:client_indexes = [2380 2646 1804  826 3352 1112  313 1246 3218 2556]
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = [ 675 1081 2499 3044  613 2491  175 2358 2237   20]
+INFO:root:client_indexes = [ 675 1081 2499 3044  613 2491  175 2358 2237   20]
+INFO:root:################local_test_on_all_clients : 5
+INFO:root:{'training_acc': 0.6121250474623465, 'training_loss': 1.69586554462758}
+INFO:root:{'test_acc': 0.6110372597860175, 'test_loss': 1.699953364543558}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = [1381  410   50 2309 1597 1476  170  854 2153 1711]
+INFO:root:client_indexes = [1381  410   50 2309 1597 1476  170  854 2153 1711]
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = [2585  979 1491  652 3243 2646 2869 2694  479   95]
+INFO:root:client_indexes = [2585  979 1491  652 3243 2646 2869 2694  479   95]
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = [2308 1213  534  796   70  236 1003 1826 1324   81]
+INFO:root:client_indexes = [2308 1213  534  796   70  236 1003 1826 1324   81]
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = [2944 2990 3375 1086 1546  584 1449 1028 2328  257]
+INFO:root:client_indexes = [2944 2990 3375 1086 1546  584 1449 1028 2328  257]
+INFO:root:################local_test_on_all_clients : 9
+INFO:root:{'training_acc': 0.6547019364637388, 'training_loss': 1.836310010258011}
+INFO:root:{'test_acc': 0.6545952015280772, 'test_loss': 1.8386878314068555}

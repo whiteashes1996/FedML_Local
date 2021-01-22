@@ -1,0 +1,21 @@
+INFO:root:load_data. dataset_name = fed_cifar100
+Traceback (most recent call last):
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 304, in <module>
+    dataset = load_data(args, args.dataset)
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 142, in load_data
+    class_num = load_partition_data_federated_cifar100(args.dataset, args.data_dir)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/fed_cifar100/data_loader.py", line 124, in load_partition_data_federated_cifar100
+    dataset, data_dir, batch_size, batch_size, client_idx)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/fed_cifar100/data_loader.py", line 54, in get_dataloader
+    train_x = utils.preprocess_cifar_img(torch.tensor(train_x), train=True)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/fed_cifar100/utils.py", line 35, in preprocess_cifar_img
+    for i in img])
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/fed_cifar100/utils.py", line 35, in <listcomp>
+    for i in img])
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 49, in __call__
+    img = t(img)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 143, in __call__
+    return F.normalize(tensor, self.mean, self.std)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/torchvision/transforms/functional.py", line 167, in normalize
+    for t, m, s in zip(tensor, mean, std):
+TypeError: zip argument #2 must support iteration

@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d1cdc07-e5cb-4290-a573-d25501d8e788" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fedml_api/standalone/fedprox/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_api/standalone/fedprox/fedprox_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_api/standalone/fedprox/my_model_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_api/standalone/fedprox/my_model_trainer_nwp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_api/standalone/fedprox/my_model_trainer_tag_prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_experiments/standalone/FedAvgExp/MNIST-CNN-Non-IID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_experiments/standalone/FedAvgExp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_experiments/standalone/FedAvgExp/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_experiments/standalone/FedAvgExp/run_fedavg_standalone_pytorch.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_experiments/standalone/fedavg/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox_cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/FUNDING.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MNIST/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/MNIST/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MNIST/download_and_unzip.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/MNIST/download_and_unzip.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MNIST/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/MNIST/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MNIST/stats.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/MNIST/stats.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cinic10/download_cinic10.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/cinic10/download_cinic10.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fed_cifar100/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/fed_cifar100/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fed_cifar100/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/fed_cifar100/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fed_cifar100/download_fedcifar100.sh" beforeDir="false" afterPath="$PROJECT_DIR$/data/fed_cifar100/download_fedcifar100.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lending_club_loan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/lending_club_loan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/synthetic_0.5_0.5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/synthetic_0.5_0.5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/synthetic_0.5_0.5/generate_synthetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/synthetic_0.5_0.5/generate_synthetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/synthetic_0.5_0.5/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/synthetic_0.5_0.5/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fedml_api/model/cv/vgg.py" beforeDir="false" afterPath="$PROJECT_DIR$/fedml_api/model/cv/vgg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fedml_experiments/standalone/fedavg/main_fedavg.py" beforeDir="false" afterPath="$PROJECT_DIR$/fedml_experiments/standalone/fedavg/main_fedavg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fedml_experiments/standalone/fedavg/run_fedavg_standalone_pytorch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/fedml_experiments/standalone/fedavg/run_fedavg_standalone_pytorch.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/fedml_api/standalone/fedprox/my_model_trainer_classification.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="JupyterTrust" id="267280ec-e64f-4bb2-bed3-76e46e8a9765" />
+  <component name="ProjectId" id="1n3HpAmN4jjkgDbVO9zflrHJCd4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox_cifar10.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Onedrive\Personal-1T\OneDrive\Project\FedML\data\fed_cifar100" />
+      <recent name="D:\Onedrive\Personal-1T\OneDrive\Project\FedML\data\fed_cifar100\datasets" />
+      <recent name="D:\Onedrive\Personal-1T\OneDrive\Project\FedML\fedml_experiments\standalone\fedprox" />
+      <recent name="D:\Onedrive\Personal-1T\OneDrive\Project\FedML\fedml_experiments\standalone" />
+      <recent name="D:\Onedrive\Personal-1T\OneDrive\Project\FedML\fedml_experiments\standalone\fedavg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Onedrive\Personal-1T\OneDrive\Project\FedML\fedml_experiments\standalone" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.fedprox_femnist-_cli-1000_E-20_model-lr_bs-10_sm-10_lr-0.01">
+    <configuration name="MNIST-CNN-Non-IID" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/FedAvgExp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/FedAvgExp/MNIST-CNN-Non-IID.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_api/model/cv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_api/model/cv/cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_cifar10-_cli-1000-20_E-20_model-lr_bs-10_sm-10_lr-0.03 (3)" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.11.6.13:1300/root/miniconda3/envs/fedml/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset cifar10 --data_dir ./../../../data/cifar10 --mu 1 --model cnn_ori --partition_method hetero --client_num_in_total 1000 --client_num_per_round 10 --comm_round 1000 --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --frequency_of_the_test 5 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_femnist-_cli-1000_E-20_model-lr_bs-10_sm-10_lr-0.01" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://whiteashes@192.168.1.103:22/home/whiteashes/anaconda3/envs/fedml/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset femnist --data_dir ./../../../data/FederatedEMNIST --mu 0 --model lr --partition_method hetero --client_num_in_total 2500 --client_num_per_round 10 --comm_round 1500 --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --frequency_of_the_test 5 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_femnist-_cli-1000_E-20_model-lr_bs-10_sm-10_lr-0.03" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.11.6.13:1300/root/miniconda3/envs/fedml/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset femnist --data_dir ./../../../data/FederatedEMNIST  --mu 1 --model cnn_ori --partition_method hetero --client_num_in_total 3400 --client_num_per_round 10 --comm_round 1500 --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --frequency_of_the_test 5 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_femnist-_cli-1000_E-5_model-lr_bs-10_sm-10_lr-0.03 (1)" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.11.6.13:1300/root/miniconda3/envs/fedml/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset femnist --data_dir ./../../../data/FederatedEMNIST --mu 1 --model cnn_ori --partition_method hetero --client_num_in_total 1000 --client_num_per_round 10 --comm_round 1500 --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --frequency_of_the_test 5 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 0.5" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 0.5 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 10 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 2 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 10 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 2 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 10 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 0.5 (1)" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox_cifar10.py" />
+      <option name="PARAMETERS" value="--dataset cifar10 --data_dir ./../../../data/cifar10 --mu 1 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 1000 --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --frequency_of_the_test 5 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 0.5" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 0.5 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 2 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-30_model-cnn_bs-1_lr-0.01 mu 0.5" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 0.5 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 30 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-30_model-cnn_bs-1_lr-0.01 mu 2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 2 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 30 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-40_model-cnn_bs-1_lr-0.01 mu 0.5" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 0.5 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 40 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-40_model-cnn_bs-1_lr-0.01 mu 2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 2 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 40 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-5_model-cnn_bs-10_lr-0.001 mu 0" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 0 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.001 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-5_model-cnn_bs-10_lr-0.01 mu 2" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 2 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-5_model-lr_bs-10_lr-0.01 mu 0" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 0 --model lr --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200 --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E-5_model-lr_bs-10_lr-0.01 mu 1" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 1 --model lr --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200 --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10-E_E-5_model-cnn_bs-10_lr-0.01 mu 1" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 1 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.01 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fedprox_mnist-_cli-100/10_E-5_model-cnn_bs-10_lr-0.001 mu 1" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--dataset mnist --data_dir ./../../../data/MNIST --mu 1 --model cnn_ori --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 200  --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.001 --gpu 0 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_fedavg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedavg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedavg/main_fedavg.py" />
+      <option name="PARAMETERS" value="--gpu 0 --dataset cifar10 --data_dir ./../../../data/cifar10 --model mobilenet --partition_method hetero --client_num_in_total 100 --client_num_per_round 10 --comm_round 1000 --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.03 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_fedavg_E5_B10" type="PythonConfigurationType" factoryName="Python">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedavg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedavg/main_fedavg.py" />
+      <option name="PARAMETERS" value="c" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_fedprox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--gpu 0 --dataset mnist --data_dir ./../../../data/MNIST --model cnn_ori --partition_method hetero --client_num_in_total 1000 --client_num_per_round 10 --comm_round 500 --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.01 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_fedprox1000E20" type="PythonConfigurationType" factoryName="Python">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--gpu 0 --dataset mnist --data_dir ./../../../data/MNIST --model cnn_ori --partition_method hetero --client_num_in_total 1000 --client_num_per_round 10 --comm_round 500 --epochs 20 --batch_size 10 --client_optimizer sgd --lr 0.03 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_fedprox1000Elr" type="PythonConfigurationType" factoryName="Python">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="--gpu 0 --dataset mnist --data_dir ./../../../data/MNIST --model lr --partition_method hetero --client_num_in_total 1000 --client_num_per_round 10 --comm_round 500 --epochs 5 --batch_size 10 --client_optimizer sgd --lr 0.03 --ci 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_fedproxtest" type="PythonConfigurationType" factoryName="Python">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="FedML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://whiteashes@192.168.1.103:22/home/whiteashes/anaconda3/envs/fedml/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fedml_api/model/linear" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fedml_api/model/linear/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_fedavg_E5_B10" />
+      <item itemvalue="Python.main_fedprox1000E20" />
+      <item itemvalue="Python.main_fedprox1000Elr" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-5_model-cnn_bs-10_lr-0.001 mu 0" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10_E-5_model-cnn_bs-10_lr-0.001 mu 1" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E_E-5_model-cnn_bs-10_lr-0.01 mu 1" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-5_model-cnn_bs-10_lr-0.01 mu 2" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 2" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 2" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-30_model-cnn_bs-1_lr-0.01 mu 2" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-40_model-cnn_bs-1_lr-0.01 mu 2" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 0.5" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 0.5" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-30_model-cnn_bs-1_lr-0.01 mu 0.5" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-40_model-cnn_bs-1_lr-0.01 mu 0.5" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-5_model-lr_bs-10_lr-0.01 mu 1" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-5_model-lr_bs-10_lr-0.01 mu 0" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.fedprox_femnist-_cli-1000_E-20_model-lr_bs-10_sm-10_lr-0.03" />
+      <item itemvalue="Python.fedprox_femnist-_cli-1000_E-5_model-lr_bs-10_sm-10_lr-0.03 (1)" />
+      <item itemvalue="Python.fedprox_femnist-_cli-1000_E-20_model-lr_bs-10_sm-10_lr-0.01" />
+      <item itemvalue="Python.fedprox_cifar10-_cli-1000-20_E-20_model-lr_bs-10_sm-10_lr-0.03 (3)" />
+      <item itemvalue="Python.main_fedproxtest" />
+      <item itemvalue="Python.fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 0.5 (1)" />
+      <item itemvalue="Python.main_fedavg" />
+      <item itemvalue="Python.MNIST-CNN-Non-IID" />
+      <item itemvalue="Python.cnn" />
+      <item itemvalue="Python.main_fedprox" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_fedprox" />
+        <item itemvalue="Python.cnn" />
+        <item itemvalue="Python.main_fedavg" />
+        <item itemvalue="Python.MNIST-CNN-Non-IID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d1cdc07-e5cb-4290-a573-d25501d8e788" name="Default Changelist" comment="" />
+      <created>1610612036713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610612036713</updated>
+      <workItem from="1610612038321" duration="39775000" />
+      <workItem from="1610953551338" duration="90092000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改lr 最后返回是prob的错误，还原为返回logits&#10;修改CNN中only_digits的选项，改为output_dim&#10;修改CNN中形状不对的错误&#10;添加FedProx算法">
+      <created>1611166726099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611166726099</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改lr 最后返回是prob的错误，还原为返回logits&#10;修改CNN中only_digits的选项，改为output_dim&#10;修改CNN中形状不对的错误&#10;添加FedProx算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改lr 最后返回是prob的错误，还原为返回logits&#10;修改CNN中only_digits的选项，改为output_dim&#10;修改CNN中形状不对的错误&#10;添加FedProx算法" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="470" y="106" key="#Deployment" timestamp="1611169497407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="392" y="88" key="#Deployment/0.0.1600.860@0.0.1600.860" timestamp="1610621963634" />
+    <state x="470" y="106" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1611169497407" />
+    <state x="451" y="89" key="#SSH_Configurations" timestamp="1611169446891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="376" y="74" key="#SSH_Configurations/0.0.1600.860@0.0.1600.860" timestamp="1610613600027" />
+    <state x="451" y="89" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1611169446891" />
+    <state x="355" y="153" width="1444" height="887" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611235243400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1610625704913" />
+    <state x="355" y="153" width="1444" height="887" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611235243400" />
+    <state x="459" y="432" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1611145372158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="459" y="432" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611145372158" />
+    <state x="969" y="341" key="#xdebugger.evaluate" timestamp="1611138954237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="969" y="341" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1611138954237" />
+    <state x="532" y="86" key="CommitChangelistDialog2" timestamp="1611299397965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611299397965" />
+    <state width="1764" height="466" key="DebuggerActiveHint" timestamp="1611149908852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1764" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1611149908852" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611136696007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611136696007" />
+    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog" timestamp="1611169728370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611169728370" />
+    <state x="696" y="223" key="FileChooserDialogImpl" timestamp="1611179493910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1610623212859" />
+    <state x="696" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611179493910" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1611299295381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="778" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610625710152" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611299295381" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1611299295379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="778" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610625710151" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611299295379" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1611299295377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="778" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610625710151" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611299295377" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1611299295379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="778" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610625710152" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611299295379" />
+    <state width="1357" height="330" key="GridCell.Tab.1.bottom" timestamp="1611205298069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1357" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611205298069" />
+    <state width="1357" height="330" key="GridCell.Tab.1.center" timestamp="1611205298069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1357" height="330" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611205298069" />
+    <state width="1357" height="330" key="GridCell.Tab.1.left" timestamp="1611205298069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1357" height="330" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611205298069" />
+    <state width="1357" height="330" key="GridCell.Tab.1.right" timestamp="1611205298069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1357" height="330" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611205298069" />
+    <state x="361" y="89" key="SettingsEditor" timestamp="1611171033596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1610613677874" />
+    <state x="361" y="89" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611171033596" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1611138016950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611138016950" />
+    <state x="800" y="232" key="ftp.server.browser" timestamp="1611171020554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="160" key="ftp.server.browser/0.0.1600.860@0.0.1600.860" timestamp="1610621891197" />
+    <state x="800" y="232" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1611171020554" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_api/standalone/fedavg/fedavg_api.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_experiments/standalone/FedAvgExp/MNIST-CNN-Non-IID.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_api/model/linear/lr.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_api/standalone/fedprox/my_model_trainer_classification.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py</url>
+          <line>327</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_api/standalone/fedprox/my_model_trainer_classification.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_experiments/standalone/fedprox/main_fedprox.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="model_trainer.model" />
+        <watch expression="client_num" />
+        <watch expression="model" />
+        <watch expression="client_ids_train" language="Python" />
+        <watch expression="client_ids_test" language="Python" />
+        <watch expression="os.listdir('./../../../data')" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_1000_E_10_E_20_model_lr_bs_10_sm_10_lr_0_03__1_.coverage" NAME="fedprox_mnist-_cli-100-E-10_E-5_model-lr_bs-10_sm-10_lr-0.01 mu 0 Coverage Results" MODIFIED="1611155637906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$main_fedprox1000E.coverage" NAME="main_fedprox1000E20 Coverage Results" MODIFIED="1610998679198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_10_model_cnn_bs_10_sm_10_lr_0_01_mu_2__1_.coverage" NAME="fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 2 Coverage Results" MODIFIED="1611161732626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_30_model_cnn_bs_1_lr_0_01_mu_0_5.coverage" NAME="fedprox_mnist-_cli-100/10-E-30_model-cnn_bs-1_lr-0.01 mu 0.5 Coverage Results" MODIFIED="1611167557657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$MNIST_CNN_Non_IID.coverage" NAME="MNIST-CNN-Non-IID Coverage Results" MODIFIED="1610778218066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/FedAvgExp" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_femnist__cli_1000_E_10_E_5_model_lr_bs_10_sm_10_lr_0_03__2_.coverage" NAME="fedprox_femnist-_cli-1000_E-20_model-lr_bs-10_sm-10_lr-0.01 Coverage Results" MODIFIED="1611235253616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_cifar10__cli_1000_20_E_20_model_lr_bs_10_sm_10_lr_0_03__3_.coverage" NAME="fedprox_cifar10-_cli-1000-20_E-20_model-lr_bs-10_sm-10_lr-0.03 (3) Coverage Results" MODIFIED="1611205248141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$cnn.coverage" NAME="cnn Coverage Results" MODIFIED="1610785109155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_api/model/cv" />
+    <SUITE FILE_PATH="coverage/FedML$main_fedprox.coverage" NAME="main_fedprox Coverage Results" MODIFIED="1610992373919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedproxR_data_femnist_1000_E_20_model_lr_bs_10_sm_10_lr_0_03.coverage" NAME="fedprox_femnist-_cli-1000_E-20_model-lr_bs-10_sm-10_lr-0.03 Coverage Results" MODIFIED="1611204049955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_20_model_cnn_bs_1_lr_0_01_mu_1.coverage" NAME="fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 1 Coverage Results" MODIFIED="1611160478674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_40_model_cnn_bs_1_lr_0_01_mu_1.coverage" NAME="fedprox_mnist-_cli-100/10-E-40_model-cnn_bs-1_lr-0.01 mu 1 Coverage Results" MODIFIED="1611160551743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_E_10_E_5_model_lr_bs_10_sm_10_lr_0_01_mu_0.coverage" NAME="fedprox_mnist-_cli-100-E-10_E-5_model-lr_bs-10_sm-10_lr-0.01 mu 0 Coverage Results" MODIFIED="1611156973044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_20_model_cnn_bs_1_lr_0_01_mu_0_5.coverage" NAME="fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 0.5 Coverage Results" MODIFIED="1611164877347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_femnist__cli_1000_E_10_E_5_model_lr_bs_10_sm_10_lr_0_03__1_.coverage" NAME="fedprox_femnist-_cli-1000-E-10_E-5_model-lr_bs-10_sm-10_lr-0.03 (1) Coverage Results" MODIFIED="1611176062442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_30_model_cnn_bs_1_lr_0_01_mu_1.coverage" NAME="fedprox_mnist-_cli-100/10-E-30_model-cnn_bs-1_lr-0.01 mu 1 Coverage Results" MODIFIED="1611160524015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_1000_E_10_E_5_model_lr_bs_10_sm_10_lr_0_01_mu_1.coverage" NAME="fedprox_mnist-_cli-100-E-10_E-5_model-lr_bs-10_sm-10_lr-0.01 mu 1 Coverage Results" MODIFIED="1611156011026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_10_model_cnn_bs_1_lr_0_01_mu_1.coverage" NAME="fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 1 Coverage Results" MODIFIED="1611160778007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_E_10_E_5_model_cnn_bs_10_sm_10_lr_0_01_mu_2.coverage" NAME="fedprox_mnist-_cli-100-E-10_E-5_model-cnn_bs-10_sm-10_lr-0.01 mu 2 Coverage Results" MODIFIED="1611157952838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$main_fedavg_E5_B10.coverage" NAME="main_fedavg_E5_B10 Coverage Results" MODIFIED="1610787696336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedavg" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_40_model_cnn_bs_1_lr_0_01_mu_0_5.coverage" NAME="fedprox_mnist-_cli-100/10-E-40_model-cnn_bs-1_lr-0.01 mu 0.5 Coverage Results" MODIFIED="1611164886395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$main_fedavg.coverage" NAME="main_fedavg Coverage Results" MODIFIED="1610716472169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedavg" />
+    <SUITE FILE_PATH="coverage/FedML$main_fedproxtest.coverage" NAME="main_fedproxtest Coverage Results" MODIFIED="1610997914535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$main_fedprox1000Elr.coverage" NAME="main_fedprox1000Elr Coverage Results" MODIFIED="1611139138394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_10_model_cnn_bs_1_lr_0_01_mu_0_5.coverage" NAME="fedprox_mnist-_cli-100/10-E-10_model-cnn_bs-1_lr-0.01 mu 0.5 Coverage Results" MODIFIED="1611164870635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_E_10_E_5_model_lr_bs_10_sm_10_lr_0_01_mu_1.coverage" NAME="fedprox_mnist-_cli-100-E-10_E-5_model-lr_bs-10_sm-10_lr-0.01 mu 1 Coverage Results" MODIFIED="1611157280176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$fedprox_mnist__cli_100_10_E_20_model_cnn_bs_1_lr_0_01_mu_0_5__1_.coverage" NAME="fedprox_mnist-_cli-100/10-E-20_model-cnn_bs-1_lr-0.01 mu 0.5 (1) Coverage Results" MODIFIED="1611179583052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_experiments/standalone/fedprox" />
+    <SUITE FILE_PATH="coverage/FedML$test.coverage" NAME="test Coverage Results" MODIFIED="1611024680425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fedml_api/model/linear" />
+  </component>
+</project>

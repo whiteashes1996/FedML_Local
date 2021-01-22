@@ -1,0 +1,59 @@
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = cnn_ori, output_dim = 10
+INFO:root:CNN_OriginalFedProx + MNIST
+INFO:root:CNN_OriginalFedAvg(
+  (conv2d_1): Conv2d(1, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (max_pooling): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2d_2): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (flatten): Flatten()
+  (linear_1): Linear(in_features=3136, out_features=512, bias=True)
+  (linear_2): Linear(in_features=512, out_features=10, bias=True)
+  (relu): ReLU()
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:self.local_sample_number = 17
+INFO:root:self.local_sample_number = 72
+INFO:root:self.local_sample_number = 22
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 13
+INFO:root:self.local_sample_number = 12
+INFO:root:self.local_sample_number = 28
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 65
+INFO:root:############setup_clients (END)#############
+INFO:root:################Communication round : 0
+INFO:root:client_indexes = [993 859 298 553 672 971  27 231 306 706]
+INFO:root:client_indexes = [993 859 298 553 672 971  27 231 306 706]
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.16385573430202388, 'training_loss': 2.4483256160779883}
+INFO:root:{'test_acc': 0.1659204992538326, 'test_loss': 2.4462186440313998}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = [507 818 452 368 242 929 262 810 318  49]
+INFO:root:client_indexes = [507 818 452 368 242 929 262 810 318  49]
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.1205727815256876, 'training_loss': 2.4232507640438867}
+INFO:root:{'test_acc': 0.12467779134445801, 'test_loss': 2.4179111580571493}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = [ 37 726 846 295 924 658 682 286 880 272]
+INFO:root:client_indexes = [ 37 726 846 295 924 658 682 286 880 272]
+INFO:root:################local_test_on_all_clients : 2
+INFO:root:{'training_acc': 0.2013330306175402, 'training_loss': 3.0059260403392227}
+INFO:root:{'test_acc': 0.2007868674535341, 'test_loss': 3.00554949555027}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = [642 762 909 199 586 797 652 755 416 498]
+INFO:root:client_indexes = [642 762 909 199 586 797 652 755 416 498]
+Traceback (most recent call last):
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/main_fedprox.py", line 318, in <module>
+    fedproxAPI.train()
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedprox/fedprox_api.py", line 64, in train
+    w = client.train(w_global)
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedavg/client.py", line 29, in train
+    self.model_trainer.train(self.local_training_data, self.device, self.args)
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedprox/my_model_trainer_classification.py", line 51, in train
+    model.zero_grad()
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1096, in zero_grad
+    for p in self.parameters():
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/torch/nn/modules/module.py", line 868, in parameters
+    yield param
+KeyboardInterrupt

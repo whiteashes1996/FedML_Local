@@ -1,0 +1,13 @@
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = cnn_ori, output_dim = 10
+INFO:root:CNN_OriginalFedProx + MNIST
+Traceback (most recent call last):
+  File "/home/whiteashes/.pycharm_helpers/pydev/pydevd.py", line 1448, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/whiteashes/.pycharm_helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/main_fedprox.py", line 313, in <module>
+    model = create_model(args, model_name=args.model, output_dim=dataset[7])
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/main_fedprox.py", line 247, in create_model
+    model = CNN_OriginalFedProx()
+NameError: name 'CNN_OriginalFedProx' is not defined

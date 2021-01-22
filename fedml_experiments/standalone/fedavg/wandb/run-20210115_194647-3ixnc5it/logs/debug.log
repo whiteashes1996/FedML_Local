@@ -1,0 +1,75 @@
+2021-01-15 19:46:47,212 INFO    MainThread:1504403 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-15 19:46:47,212 INFO    MainThread:1504403 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-15 19:46:47,212 INFO    MainThread:1504403 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-15 19:46:47,213 INFO    MainThread:1504403 [wandb_init.py:_log_setup():318] Logging user logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210115_194647-3ixnc5it/logs/debug.log
+2021-01-15 19:46:47,213 INFO    MainThread:1504403 [wandb_init.py:_log_setup():319] Logging internal logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210115_194647-3ixnc5it/logs/debug-internal.log
+2021-01-15 19:46:49,005 INFO    MainThread:1504403 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-15 19:46:49,005 INFO    MainThread:1504403 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.REDIRECT
+2021-01-15 19:46:49,005 INFO    MainThread:1504403 [wandb_run.py:_redirect():1178] Redirecting console.
+2021-01-15 19:46:49,005 INFO    MainThread:1504403 [redirect.py:install():205] install start
+2021-01-15 19:46:49,006 INFO    MainThread:1504403 [redirect.py:install():220] install stop
+2021-01-15 19:46:49,006 INFO    MainThread:1504403 [redirect.py:install():205] install start
+2021-01-15 19:46:49,006 INFO    MainThread:1504403 [redirect.py:install():220] install stop
+2021-01-15 19:46:49,006 INFO    MainThread:1504403 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-15 19:46:49,581 INFO    MainThread:1504403 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 1
+2021-01-15 19:46:49,581 INFO    MainThread:1504403 [wandb_run.py:_restore():1250] restore
+2021-01-15 19:46:49,581 INFO    MainThread:1504403 [redirect.py:uninstall():224] uninstall start
+2021-01-15 19:46:49,582 INFO    MainThread:1504403 [redirect.py:_stop():279] _stop: stdout
+2021-01-15 19:46:49,582 INFO    MainThread:1504403 [redirect.py:_stop():285] _stop closed: stdout
+2021-01-15 19:46:49,582 INFO    stdout    :1504403 [redirect.py:_pipe_relay():121] relay done saw last write: stdout
+2021-01-15 19:46:49,582 INFO    stdout    :1504403 [redirect.py:_pipe_relay():137] relay done done: stdout
+2021-01-15 19:46:49,582 INFO    MainThread:1504403 [redirect.py:_stop():291] _stop joined: stdout
+2021-01-15 19:46:49,582 INFO    MainThread:1504403 [redirect.py:_stop():293] _stop rd closed: stdout
+2021-01-15 19:46:49,582 INFO    MainThread:1504403 [redirect.py:uninstall():228] uninstall done
+2021-01-15 19:46:49,582 INFO    MainThread:1504403 [redirect.py:uninstall():224] uninstall start
+2021-01-15 19:46:49,583 INFO    MainThread:1504403 [redirect.py:_stop():279] _stop: stderr
+2021-01-15 19:46:49,583 INFO    stderr    :1504403 [redirect.py:_pipe_relay():121] relay done saw last write: stderr
+2021-01-15 19:46:49,583 INFO    stderr    :1504403 [redirect.py:_pipe_relay():137] relay done done: stderr
+2021-01-15 19:46:49,583 INFO    MainThread:1504403 [redirect.py:_stop():285] _stop closed: stderr
+2021-01-15 19:46:49,583 INFO    MainThread:1504403 [redirect.py:_stop():291] _stop joined: stderr
+2021-01-15 19:46:49,583 INFO    MainThread:1504403 [redirect.py:_stop():293] _stop rd closed: stderr
+2021-01-15 19:46:49,583 INFO    MainThread:1504403 [redirect.py:uninstall():228] uninstall done
+2021-01-15 19:46:49,970 INFO    MainThread:1504403 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "5fa9d15c3d8f47949db3601809685529"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1160
+      total_bytes: 1160
+    }
+  }
+}
+
+2021-01-15 19:46:51,973 INFO    MainThread:1504403 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "cca85a37526b4378b310cebe3031fbd2"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 4540
+      total_bytes: 4540
+    }
+  }
+}
+
+2021-01-15 19:46:53,979 INFO    MainThread:1504403 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "c2f67eef80854fadb76690b052ab868c"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 4540
+      total_bytes: 4540
+    }
+  }
+}
+
+2021-01-15 19:46:55,024 INFO    MainThread:1504403 [wandb_run.py:_show_files():1614] logging synced files
+2021-01-15 19:46:55,025 INFO    MainThread:1504403 [internal.py:handle_exit():139] Internal process exited

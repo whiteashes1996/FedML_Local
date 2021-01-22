@@ -1,0 +1,25 @@
+2021-01-14 19:55:32,033 INFO    MainThread:714920 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-14 19:55:32,033 INFO    MainThread:714920 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-14 19:55:32,033 INFO    MainThread:714920 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-14 19:55:32,034 INFO    MainThread:714920 [wandb_init.py:_log_setup():318] Logging user logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210114_195532-2r16gy00/logs/debug.log
+2021-01-14 19:55:32,034 INFO    MainThread:714920 [wandb_init.py:_log_setup():319] Logging internal logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210114_195532-2r16gy00/logs/debug-internal.log
+2021-01-14 19:55:39,155 WARNING MainThread:714920 [wandb_init.py:init():638] interrupted
+Traceback (most recent call last):
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 618, in init
+    run = wi.init()
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 451, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 559, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 550, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 463, in _communicate
+    f = future.get(timeout)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 63, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2021-01-14 19:55:39,169 INFO    MainThread:714920 [internal.py:handle_exit():139] Internal process exited

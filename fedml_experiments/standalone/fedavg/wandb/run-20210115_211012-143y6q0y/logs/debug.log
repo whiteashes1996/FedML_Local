@@ -1,0 +1,60 @@
+2021-01-15 21:10:12,903 INFO    MainThread:1554128 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-15 21:10:12,903 INFO    MainThread:1554128 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-15 21:10:12,903 INFO    MainThread:1554128 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-15 21:10:12,903 INFO    MainThread:1554128 [wandb_init.py:_log_setup():318] Logging user logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210115_211012-143y6q0y/logs/debug.log
+2021-01-15 21:10:12,903 INFO    MainThread:1554128 [wandb_init.py:_log_setup():319] Logging internal logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210115_211012-143y6q0y/logs/debug-internal.log
+2021-01-15 21:10:15,470 INFO    MainThread:1554128 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-15 21:10:15,470 INFO    MainThread:1554128 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.REDIRECT
+2021-01-15 21:10:15,470 INFO    MainThread:1554128 [wandb_run.py:_redirect():1178] Redirecting console.
+2021-01-15 21:10:15,470 INFO    MainThread:1554128 [redirect.py:install():205] install start
+2021-01-15 21:10:15,471 INFO    MainThread:1554128 [redirect.py:install():220] install stop
+2021-01-15 21:10:15,471 INFO    MainThread:1554128 [redirect.py:install():205] install start
+2021-01-15 21:10:15,471 INFO    MainThread:1554128 [redirect.py:install():220] install stop
+2021-01-15 21:10:15,471 INFO    MainThread:1554128 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-15 21:14:29,777 INFO    MainThread:1554128 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 255
+2021-01-15 21:14:29,777 INFO    MainThread:1554128 [wandb_run.py:_restore():1250] restore
+2021-01-15 21:14:29,777 INFO    MainThread:1554128 [redirect.py:uninstall():224] uninstall start
+2021-01-15 21:14:29,777 INFO    MainThread:1554128 [redirect.py:_stop():279] _stop: stdout
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:_stop():285] _stop closed: stdout
+2021-01-15 21:14:29,778 INFO    stdout    :1554128 [redirect.py:_pipe_relay():121] relay done saw last write: stdout
+2021-01-15 21:14:29,778 INFO    stdout    :1554128 [redirect.py:_pipe_relay():137] relay done done: stdout
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:_stop():291] _stop joined: stdout
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:_stop():293] _stop rd closed: stdout
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:uninstall():228] uninstall done
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:uninstall():224] uninstall start
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:_stop():279] _stop: stderr
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:_stop():285] _stop closed: stderr
+2021-01-15 21:14:29,778 INFO    stderr    :1554128 [redirect.py:_pipe_relay():121] relay done saw last write: stderr
+2021-01-15 21:14:29,778 INFO    stderr    :1554128 [redirect.py:_pipe_relay():137] relay done done: stderr
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:_stop():291] _stop joined: stderr
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:_stop():293] _stop rd closed: stderr
+2021-01-15 21:14:29,778 INFO    MainThread:1554128 [redirect.py:uninstall():228] uninstall done
+2021-01-15 21:14:30,230 INFO    MainThread:1554128 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "f29f93be422c4a21900989383d8deead"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1166
+      total_bytes: 1166
+    }
+  }
+}
+
+2021-01-15 21:14:32,234 INFO    MainThread:1554128 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "71314995e28e47faa18ddfbb16fe603f"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 49755
+      total_bytes: 49755
+    }
+  }
+}
+

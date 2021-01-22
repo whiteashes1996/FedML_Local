@@ -1,0 +1,5 @@
+2021-01-14 19:55:47,676 INFO    MainThread:715107 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-14 19:55:47,676 INFO    MainThread:715107 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-14 19:55:47,676 INFO    MainThread:715107 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-14 19:55:47,676 INFO    MainThread:715107 [wandb_init.py:_log_setup():318] Logging user logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210114_195547-2g7x6moz/logs/debug.log
+2021-01-14 19:55:47,676 INFO    MainThread:715107 [wandb_init.py:_log_setup():319] Logging internal logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210114_195547-2g7x6moz/logs/debug-internal.log

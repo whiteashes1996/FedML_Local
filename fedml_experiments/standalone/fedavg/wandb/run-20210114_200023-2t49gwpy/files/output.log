@@ -1,0 +1,57 @@
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:self.local_sample_number = 17
+INFO:root:self.local_sample_number = 72
+INFO:root:self.local_sample_number = 22
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 13
+INFO:root:self.local_sample_number = 12
+INFO:root:self.local_sample_number = 28
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 65
+INFO:root:############setup_clients (END)#############
+INFO:root:################Communication round : 0
+INFO:root:client_indexes = [993 859 298 553 672 971  27 231 306 706]
+INFO:root:client_indexes = [993 859 298 553 672 971  27 231 306 706]
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.6273352361183187, 'training_loss': 1.9250188411445925}
+INFO:root:{'test_acc': 0.6274589607922941, 'test_loss': 1.9226793102842223}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = [507 818 452 368 242 929 262 810 318  49]
+INFO:root:client_indexes = [507 818 452 368 242 929 262 810 318  49]
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = [ 37 726 846 295 924 658 682 286 880 272]
+INFO:root:client_indexes = [ 37 726 846 295 924 658 682 286 880 272]
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = [642 762 909 199 586 797 652 755 416 498]
+INFO:root:client_indexes = [642 762 909 199 586 797 652 755 416 498]
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = [698 577 763 790 520 825 958 996 817 152]
+INFO:root:client_indexes = [698 577 763 790 520 825 958 996 817 152]
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = [544 515 193  11 279 653 643 763 198 721]
+INFO:root:client_indexes = [544 515 193  11 279 653 643 763 198 721]
+INFO:root:################local_test_on_all_clients : 5
+INFO:root:{'training_acc': 0.6766670991177997, 'training_loss': 1.8321354471641962}
+INFO:root:{'test_acc': 0.6707366707366708, 'test_loss': 1.8310936992777491}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = [978  22 909 399 438 736 260 990 263 257]
+INFO:root:client_indexes = [978  22 909 399 438 736 260 990 263 257]
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = [778 334 271 802 216 408 812  94 487 170]
+INFO:root:client_indexes = [778 334 271 802 216 408 812  94 487 170]
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = [908 265 627 327 244 615 625 584 925 565]
+INFO:root:client_indexes = [908 265 627 327 244 615 625 584 925 565]
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = [  2 879  57 496 611  45 200 665 603 299]
+INFO:root:client_indexes = [  2 879  57 496 611  45 200 665 603 299]
+INFO:root:################local_test_on_all_clients : 9
+INFO:root:{'training_acc': 0.5309743124026985, 'training_loss': 1.9288961466365084}
+INFO:root:{'test_acc': 0.5272011938678606, 'test_loss': 1.9282059847879987}

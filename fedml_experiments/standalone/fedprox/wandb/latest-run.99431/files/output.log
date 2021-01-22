@@ -1,0 +1,212 @@
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = cnn_ori, output_dim = 10
+INFO:root:CNN_OriginalFedProx + MNIST
+INFO:root:CNN_OriginalFedAvg(
+  (conv2d_1): Conv2d(1, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (max_pooling): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2d_2): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (flatten): Flatten()
+  (linear_1): Linear(in_features=3136, out_features=512, bias=True)
+  (linear_2): Linear(in_features=512, out_features=10, bias=True)
+  (relu): ReLU()
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:self.local_sample_number = 17
+INFO:root:self.local_sample_number = 72
+INFO:root:self.local_sample_number = 22
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 13
+INFO:root:self.local_sample_number = 12
+INFO:root:self.local_sample_number = 28
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 65
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 107
+INFO:root:self.local_sample_number = 24
+INFO:root:self.local_sample_number = 9
+INFO:root:self.local_sample_number = 15
+INFO:root:self.local_sample_number = 18
+INFO:root:self.local_sample_number = 33
+INFO:root:self.local_sample_number = 62
+INFO:root:self.local_sample_number = 10
+INFO:root:self.local_sample_number = 48
+INFO:root:############setup_clients (END)#############
+INFO:root:################Communication round : 0
+INFO:root:client_indexes = [993 859 298 553 672 971  27 231 306 706 496 558 784 239 578  55 906 175
+  14  77]
+INFO:root:client_indexes = [993 859 298 553 672 971  27 231 306 706 496 558 784 239 578  55 906 175
+  14  77]
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.0899390243902439, 'training_loss': 2.720458467409293}
+INFO:root:{'test_acc': 0.09184642517975851, 'test_loss': 2.7139137363420898}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = [507 818 452 368 242 929 262 810 318  49 446 142 968 345 971 133 104   6
+ 600 496]
+INFO:root:client_indexes = [507 818 452 368 242 929 262 810 318  49 446 142 968 345 971 133 104   6
+ 600 496]
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.11677802283341983, 'training_loss': 2.316114849932434}
+INFO:root:{'test_acc': 0.11816578483245149, 'test_loss': 2.311315453160878}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = [ 37 726 846 295 924 658 682 286 880 272 137 954 515 788 860 640 737 683
+ 412  71]
+INFO:root:client_indexes = [ 37 726 846 295 924 658 682 286 880 272 137 954 515 788 860 640 737 683
+ 412  71]
+INFO:root:################local_test_on_all_clients : 2
+INFO:root:{'training_acc': 0.17267773741567202, 'training_loss': 2.325582185929296}
+INFO:root:{'test_acc': 0.17446750780084114, 'test_loss': 2.3237880631066328}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = [642 762 909 199 586 797 652 755 416 498 514 456 881 530 180 449 752 809
+ 266  58]
+INFO:root:client_indexes = [642 762 909 199 586 797 652 755 416 498 514 456 881 530 180 449 752 809
+ 266  58]
+INFO:root:################local_test_on_all_clients : 3
+INFO:root:{'training_acc': 0.2463187597301505, 'training_loss': 2.1766082513835774}
+INFO:root:{'test_acc': 0.2477275810609144, 'test_loss': 2.1781425059949537}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = [698 577 763 790 520 825 958 996 817 152 517 384 881 247 170 908 536 636
+ 300 807]
+INFO:root:client_indexes = [698 577 763 790 520 825 958 996 817 152 517 384 881 247 170 908 536 636
+ 300 807]
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.3344090555267255, 'training_loss': 2.093058260427387}
+INFO:root:{'test_acc': 0.33496133496133496, 'test_loss': 2.092490044665165}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = [544 515 193  11 279 653 643 763 198 721 236 500 567 979 969 906  60 353
+ 929 336]
+INFO:root:client_indexes = [544 515 193  11 279 653 643 763 198 721 236 500 567 979 969 906  60 353
+ 929 336]
+INFO:root:################local_test_on_all_clients : 5
+INFO:root:{'training_acc': 0.25548131811105346, 'training_loss': 2.065992756930364}
+INFO:root:{'test_acc': 0.2581739248405915, 'test_loss': 2.0642838227329996}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = [978  22 909 399 438 736 260 990 263 257 691  55 366 899 816  43 539 203
+ 207 292]
+INFO:root:client_indexes = [978  22 909 399 438 736 260 990 263 257 691  55 366 899 816  43 539 203
+ 207 292]
+INFO:root:################local_test_on_all_clients : 6
+INFO:root:{'training_acc': 0.3171380384016606, 'training_loss': 2.0781017317845993}
+INFO:root:{'test_acc': 0.31868131868131866, 'test_loss': 2.077498859797027}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = [778 334 271 802 216 408 812  94 487 170  24 242 542 930 886 426 125 453
+ 650 913]
+INFO:root:client_indexes = [778 334 271 802 216 408 812  94 487 170  24 242 542 930 886 426 125 453
+ 650 913]
+INFO:root:################local_test_on_all_clients : 7
+INFO:root:{'training_acc': 0.10699922158796056, 'training_loss': 2.685167233032896}
+INFO:root:{'test_acc': 0.10717677384344051, 'test_loss': 2.6782292728800656}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = [908 265 627 327 244 615 625 584 925 565 173 675 665  41 253 607 103 579
+ 705 485]
+INFO:root:client_indexes = [908 265 627 327 244 615 625 584 925 565 173 675 665  41 253 607 103 579
+ 705 485]
+INFO:root:################local_test_on_all_clients : 8
+INFO:root:{'training_acc': 0.13925467047223664, 'training_loss': 2.3414101924696}
+INFO:root:{'test_acc': 0.13675213675213677, 'test_loss': 2.341662416612903}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = [  2 879  57 496 611  45 200 665 603 299 213  65 450 128  98 856 148 697
+  10 916]
+INFO:root:client_indexes = [  2 879  57 496 611  45 200 665 603 299 213  65 450 128  98 856 148 697
+  10 916]
+INFO:root:################local_test_on_all_clients : 9
+INFO:root:{'training_acc': 0.10978853139595225, 'training_loss': 2.287814043547821}
+INFO:root:{'test_acc': 0.11233211233211234, 'test_loss': 2.2835468691225986}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = [841 956 544 173 759 955 121 230  11 120 659 419 191 944 392 417 845 814
+ 772 374]
+INFO:root:client_indexes = [841 956 544 173 759 955 121 230  11 120 659 419 191 944 392 417 845 814
+ 772 374]
+INFO:root:################local_test_on_all_clients : 10
+INFO:root:{'training_acc': 0.35829657498702644, 'training_loss': 1.7185724989095916}
+INFO:root:{'test_acc': 0.35870302536969206, 'test_loss': 1.7149845766755947}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = [ 25 464 372 730 757 357 565 767 642 607 374  95 626 400 617 641 289 340
+ 309 315]
+INFO:root:client_indexes = [ 25 464 372 730 757 357 565 767 642 607 374  95 626 400 617 641 289 340
+ 309 315]
+INFO:root:################local_test_on_all_clients : 11
+INFO:root:{'training_acc': 0.5228982874935132, 'training_loss': 1.5951824479039949}
+INFO:root:{'test_acc': 0.5272011938678606, 'test_loss': 1.5926526675569108}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = [518 871 797 274 325 827 766 832 931 368 562 381 507 506   3 842 136 938
+ 854 190]
+INFO:root:client_indexes = [518 871 797 274 325 827 766 832 931 368 562 381 507 506   3 842 136 938
+ 854 190]
+INFO:root:################local_test_on_all_clients : 12
+INFO:root:{'training_acc': 0.16752075765438507, 'training_loss': 2.1611310241337467}
+INFO:root:{'test_acc': 0.17148283814950482, 'test_loss': 2.1598270856690056}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = [945 452 304 433 864 291 986 923 260 546 591 390 407 261 594 618 196  78
+ 765 644]
+INFO:root:client_indexes = [945 452 304 433 864 291 986 923 260 546 591 390 407 261 594 618 196  78
+ 765 644]
+INFO:root:################local_test_on_all_clients : 13
+INFO:root:{'training_acc': 0.15237415672029062, 'training_loss': 1.8596301919596534}
+INFO:root:{'test_acc': 0.15303215303215303, 'test_loss': 1.8602212996661396}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = [172 278 486 513 672 918 556 129 658 303  33 280 742 732 850 580 263 717
+ 137 201]
+INFO:root:client_indexes = [172 278 486 513 672 918 556 129 658 303  33 280 742 732 850 580 263 717
+ 137 201]
+INFO:root:################local_test_on_all_clients : 14
+INFO:root:{'training_acc': 0.3251654125583809, 'training_loss': 1.7251764760319082}
+INFO:root:{'test_acc': 0.3295346628679962, 'test_loss': 1.722721336925714}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = [825 374 488 608  42 836 247 334 205 988 579  94 789 779 307 276 385 158
+ 883 767]
+INFO:root:client_indexes = [825 374 488 608  42 836 247 334 205 988 579  94 789 779 307 276 385 158
+ 883 767]
+INFO:root:################local_test_on_all_clients : 15
+INFO:root:{'training_acc': 0.31220809548521017, 'training_loss': 1.6671169288403276}
+INFO:root:{'test_acc': 0.3094559761226428, 'test_loss': 1.6667587419625878}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = [221 988 882 500 106 126 246 734 589 210 953 877 948  55  30 859 436 506
+ 512 340]
+INFO:root:client_indexes = [221 988 882 500 106 126 246 734 589 210 953 877 948  55  30 859 436 506
+ 512 340]
+INFO:root:################local_test_on_all_clients : 16
+INFO:root:{'training_acc': 0.4453814218993254, 'training_loss': 1.53506997954748}
+INFO:root:{'test_acc': 0.4439017772351106, 'test_loss': 1.5327592755638426}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = [786 499 930 217 803  69 810  98 983  78 775 358 620 924 869 168 293 446
+ 575 444]
+INFO:root:client_indexes = [786 499 930 217 803  69 810  98 983  78 775 358 620 924 869 168 293 446
+ 575 444]
+INFO:root:################local_test_on_all_clients : 17
+INFO:root:{'training_acc': 0.2887746497145823, 'training_loss': 1.8526427667804515}
+INFO:root:{'test_acc': 0.284357617690951, 'test_loss': 1.852583874700804}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = [246 751  75 395 966 785 746 128 960 823 668 808 749 272 915 821 983 716
+ 748 623]
+INFO:root:client_indexes = [246 751  75 395 966 785 746 128 960 823 668 808 749 272 915 821 983 716
+ 748 623]
+INFO:root:################local_test_on_all_clients : 18
+INFO:root:{'training_acc': 0.46278217436429686, 'training_loss': 1.5549962791741343}
+INFO:root:{'test_acc': 0.4551621218287885, 'test_loss': 1.5548874808730855}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = [800 773  23 819 486 719 239 944 658 472 648 588 208 323 152  38 666 743
+ 913 481]
+INFO:root:client_indexes = [800 773  23 819 486 719 239 944 658 472 648 588 208 323 152  38 666 743
+ 913 481]
+INFO:root:################local_test_on_all_clients : 19
+INFO:root:{'training_acc': 0.12542163985469643, 'training_loss': 2.251039987652295}
+INFO:root:{'test_acc': 0.12467779134445801, 'test_loss': 2.236897693553}
+INFO:root:################Communication round : 20
+INFO:root:client_indexes = [890 694 798 147 858 446 634 127 812 438 747 528 558 592 499 505  45  20
+ 306  62]
+INFO:root:client_indexes = [890 694 798 147 858 446 634 127 812 438 747 528 558 592 499 505  45  20
+ 306  62]
+INFO:root:################local_test_on_all_clients : 20
+Traceback (most recent call last):
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/main_fedprox.py", line 318, in <module>
+    fedproxAPI.train()
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedprox/fedprox_api.py", line 81, in train
+    self._local_test_on_all_clients(round_idx)
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedprox/fedprox_api.py", line 152, in _local_test_on_all_clients
+    test_local_metrics = client.local_test(True)
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedavg/client.py", line 38, in local_test
+    metrics = self.model_trainer.test(test_data, self.device, self.args)
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedprox/my_model_trainer_classification.py", line 71, in test
+    model.to(device)
+KeyboardInterrupt

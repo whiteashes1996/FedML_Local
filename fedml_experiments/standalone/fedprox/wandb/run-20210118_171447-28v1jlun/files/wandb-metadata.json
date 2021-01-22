@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-60-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.4",
+    "heartbeatAt": "2021-01-18T09:14:49.350851",
+    "startedAt": "2021-01-18T09:14:47.742187",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": "10.1.243",
+    "args": [],
+    "state": "running",
+    "codePath": "main_fedprox.py",
+    "program": "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/main_fedprox.py",
+    "host": "whiteashes-Z390-AORUS-PRO-WIFI",
+    "username": "whiteashes",
+    "executable": "/home/whiteashes/anaconda3/envs/fedml/bin/python3.7"
+}

@@ -1,0 +1,152 @@
+2021-01-16 15:24:51,794 INFO    MainThread:2173207 [internal.py:wandb_internal():64] W&B internal server running at pid: 2173207
+2021-01-16 15:24:51,796 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: check_version
+2021-01-16 15:24:51,796 DEBUG   SenderThread:2173207 [sender.py:send():117] send: header
+2021-01-16 15:24:51,796 INFO    WriterThread:2173207 [datastore.py:open_for_write():77] open: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/run-1xg2lq3e.wandb
+2021-01-16 15:24:51,796 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:51,796 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: check_version
+2021-01-16 15:24:51,797 DEBUG   Thread-4  :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): pypi.org:443
+2021-01-16 15:24:52,457 DEBUG   Thread-4  :2173207 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 52801
+2021-01-16 15:24:52,691 DEBUG   SenderThread:2173207 [sender.py:send():117] send: run
+2021-01-16 15:24:52,693 DEBUG   SenderThread:2173207 [git.py:repo():31] git repository is invalid
+2021-01-16 15:24:52,697 DEBUG   SenderThread:2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:53,066 DEBUG   SenderThread:2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:53,069 INFO    SenderThread:2173207 [dir_watcher.py:__init__():165] watching files in: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files
+2021-01-16 15:24:53,069 INFO    SenderThread:2173207 [sender.py:_start_run_threads():596] run started: 1xg2lq3e with start time 1610781891
+2021-01-16 15:24:53,070 DEBUG   SenderThread:2173207 [sender.py:send():117] send: summary
+2021-01-16 15:24:53,070 INFO    SenderThread:2173207 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-01-16 15:24:53,070 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: run_start
+2021-01-16 15:24:53,072 DEBUG   HandlerThread:2173207 [meta.py:__init__():34] meta init
+2021-01-16 15:24:53,072 DEBUG   HandlerThread:2173207 [meta.py:__init__():48] meta init done
+2021-01-16 15:24:53,072 DEBUG   HandlerThread:2173207 [meta.py:probe():190] probe
+2021-01-16 15:24:53,078 DEBUG   HandlerThread:2173207 [git.py:repo():31] git repository is invalid
+2021-01-16 15:24:53,078 DEBUG   HandlerThread:2173207 [meta.py:_save_pip():52] save pip
+2021-01-16 15:24:53,078 DEBUG   HandlerThread:2173207 [meta.py:_save_pip():66] save pip done
+2021-01-16 15:24:53,078 DEBUG   HandlerThread:2173207 [meta.py:probe():231] probe done
+2021-01-16 15:24:53,080 DEBUG   SenderThread:2173207 [sender.py:send():117] send: files
+2021-01-16 15:24:53,080 INFO    SenderThread:2173207 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-01-16 15:24:53,083 DEBUG   Thread-11 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:53,083 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: status
+2021-01-16 15:24:53,084 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:53,084 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: status
+2021-01-16 15:24:53,085 DEBUG   SenderThread:2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:53,086 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: poll_exit
+2021-01-16 15:24:53,448 DEBUG   SenderThread:2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:53,449 DEBUG   SenderThread:2173207 [sender.py:send():117] send: telemetry
+2021-01-16 15:24:53,451 DEBUG   SenderThread:2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:53,452 DEBUG   Thread-11 :2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:53,454 DEBUG   Thread-11 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-16 15:24:53,827 DEBUG   SenderThread:2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:53,831 DEBUG   SenderThread:2173207 [sender.py:send():117] send: exit
+2021-01-16 15:24:53,831 INFO    SenderThread:2173207 [sender.py:send_exit():195] handling exit code: 1
+2021-01-16 15:24:53,831 INFO    SenderThread:2173207 [sender.py:send_exit():203] send defer
+2021-01-16 15:24:53,831 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:53,831 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: poll_exit
+2021-01-16 15:24:53,831 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:53,831 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 0
+2021-01-16 15:24:53,831 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:53,831 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:53,831 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 0
+2021-01-16 15:24:53,831 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 1
+2021-01-16 15:24:53,832 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:53,832 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 1
+2021-01-16 15:24:53,902 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:53,902 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:53,902 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 1
+2021-01-16 15:24:53,902 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 2
+2021-01-16 15:24:53,902 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:53,902 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 2
+2021-01-16 15:24:53,903 DEBUG   SenderThread:2173207 [sender.py:send():117] send: stats
+2021-01-16 15:24:53,903 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:53,903 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:53,903 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 2
+2021-01-16 15:24:53,903 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 3
+2021-01-16 15:24:53,903 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:53,903 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 3
+2021-01-16 15:24:53,903 DEBUG   SenderThread:2173207 [sender.py:send():117] send: summary
+2021-01-16 15:24:53,904 INFO    SenderThread:2173207 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-01-16 15:24:53,904 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:53,904 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:53,904 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 3
+2021-01-16 15:24:53,904 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 4
+2021-01-16 15:24:53,904 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:53,904 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 4
+2021-01-16 15:24:53,904 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:53,904 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:53,904 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 4
+2021-01-16 15:24:53,904 INFO    SenderThread:2173207 [dir_watcher.py:finish():279] shutting down directory watcher
+2021-01-16 15:24:53,972 DEBUG   Thread-11 :2173207 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/whiteashes/fedml/1xg2lq3e/wandb-metadata.json?Expires=1610868293&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=cV4tc348kvJ%2F7HnKyYfMVk83qcMFv9%2BXzfnnMN1Q7I5RV6XkLE%2FybNfqzFyPBVcg%2FrkFlVJMNg9zAKPTeodCMLG4bNLaWkgrAQLzV0k%2Bgnbm85%2B8NYZ93kRbxOP40UY%2BgfEAn7eAQNb3lTrnGfDwN9of7oIp1Fmj0l67Ofl2m0hoo1GZL6tyjiUrfyi2lOdPNYeFDRM%2Bp%2BX17OT40FF9D29HNRpUcXm1jocuyO%2BNiUuYrj61moIToMTlTVfP2Hb%2FNx%2B3s6nOkxnHYzw9UpP%2FPD1DPQvnpPe2Cx60ZMUjOEhfmJ0BQqq3yOdva0eHAD36fP29MqrNvT%2BltoIP9gZV5A%3D%3D HTTP/1.1" 200 0
+2021-01-16 15:24:53,973 INFO    Thread-11 :2173207 [upload_job.py:push():131] Uploaded file /tmp/tmpds8cmfwbwandb/2kr6guzo-wandb-metadata.json
+2021-01-16 15:24:54,070 INFO    Thread-8  :2173207 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/config.yaml
+2021-01-16 15:24:54,070 INFO    SenderThread:2173207 [dir_watcher.py:_on_file_created():213] file/dir created: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/wandb-summary.json
+2021-01-16 15:24:54,070 INFO    SenderThread:2173207 [dir_watcher.py:_on_file_created():213] file/dir created: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/requirements.txt
+2021-01-16 15:24:54,070 INFO    SenderThread:2173207 [dir_watcher.py:_on_file_created():213] file/dir created: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/wandb-metadata.json
+2021-01-16 15:24:54,070 INFO    SenderThread:2173207 [dir_watcher.py:_on_file_created():213] file/dir created: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/output.log
+2021-01-16 15:24:54,071 INFO    SenderThread:2173207 [dir_watcher.py:finish():309] scan: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files
+2021-01-16 15:24:54,071 INFO    SenderThread:2173207 [dir_watcher.py:finish():315] scan save: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/output.log output.log
+2021-01-16 15:24:54,071 INFO    SenderThread:2173207 [dir_watcher.py:finish():315] scan save: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/requirements.txt requirements.txt
+2021-01-16 15:24:54,071 INFO    SenderThread:2173207 [dir_watcher.py:finish():315] scan save: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/config.yaml config.yaml
+2021-01-16 15:24:54,071 INFO    SenderThread:2173207 [dir_watcher.py:finish():315] scan save: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/wandb-metadata.json wandb-metadata.json
+2021-01-16 15:24:54,071 INFO    SenderThread:2173207 [dir_watcher.py:finish():315] scan save: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/wandb-summary.json wandb-summary.json
+2021-01-16 15:24:54,073 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 5
+2021-01-16 15:24:54,073 DEBUG   Thread-12 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:54,075 DEBUG   Thread-13 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:54,077 DEBUG   Thread-14 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:54,079 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:54,079 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 5
+2021-01-16 15:24:54,079 DEBUG   Thread-15 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:54,079 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:54,079 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:54,079 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 5
+2021-01-16 15:24:54,079 INFO    SenderThread:2173207 [file_pusher.py:finish():170] shutting down file pusher
+2021-01-16 15:24:54,079 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 6
+2021-01-16 15:24:54,079 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:54,079 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 6
+2021-01-16 15:24:54,080 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:54,080 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:54,080 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 6
+2021-01-16 15:24:54,080 DEBUG   Thread-5  :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-16 15:24:54,438 DEBUG   Thread-13 :2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:54,440 DEBUG   Thread-13 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-16 15:24:54,443 DEBUG   Thread-12 :2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:54,444 DEBUG   Thread-12 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-16 15:24:54,445 DEBUG   Thread-14 :2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:54,447 DEBUG   Thread-14 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-16 15:24:54,449 DEBUG   Thread-15 :2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-16 15:24:54,451 DEBUG   Thread-15 :2173207 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-16 15:24:54,459 DEBUG   Thread-5  :2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/whiteashes/fedml/1xg2lq3e/file_stream HTTP/1.1" 200 None
+2021-01-16 15:24:54,711 DEBUG   Thread-5  :2173207 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/whiteashes/fedml/1xg2lq3e/file_stream HTTP/1.1" 200 None
+2021-01-16 15:24:54,712 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 7
+2021-01-16 15:24:54,712 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:54,712 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 7
+2021-01-16 15:24:54,712 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:54,712 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:54,712 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 7
+2021-01-16 15:24:54,712 INFO    SenderThread:2173207 [sender.py:send_request_defer():248] send defer: 8
+2021-01-16 15:24:54,713 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: defer
+2021-01-16 15:24:54,713 DEBUG   SenderThread:2173207 [sender.py:send():117] send: final
+2021-01-16 15:24:54,713 INFO    HandlerThread:2173207 [handler.py:handle_request_defer():69] handle defer: 8
+2021-01-16 15:24:54,713 DEBUG   SenderThread:2173207 [sender.py:send():117] send: footer
+2021-01-16 15:24:54,713 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:54,713 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: defer
+2021-01-16 15:24:54,713 INFO    SenderThread:2173207 [sender.py:send_request_defer():212] handle sender defer: 8
+2021-01-16 15:24:54,948 DEBUG   Thread-13 :2173207 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/whiteashes/fedml/1xg2lq3e/requirements.txt?Expires=1610868294&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jUIMnvOS8Ee0vjxCeA%2BcysB08CmlOf0vYiTvzLcDOsbdNBaDySyJoSsLbX4j7wC4ikRGY5kSJbaDk0JrU9h5HvuhqFIK43xaCu61jcKIjDzrYyds6z5j3%2FYYqaE7EBlJ6rNok%2BvTqZxGnjoXLzFNVwKzcuC%2BXwTKPJEz7CEdeZjGlNPk7bTqTofvJIEWRRBZS2ge7%2FZMs9wRcSdgaIPAno4aUEsvERF8QAJO4sY7JEDhNOs1owmc%2BiEsQjrGCPuK4x9jl1fbu5TRBluM7xS%2BCSatMM9ENw%2B9L8tnJLKk8fWZh07rY3ipPiNAiLoEem3cvXKLVx7OMOjVL%2BnAJ9pu8g%3D%3D HTTP/1.1" 200 0
+2021-01-16 15:24:54,949 INFO    Thread-13 :2173207 [upload_job.py:push():131] Uploaded file /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/requirements.txt
+2021-01-16 15:24:54,967 DEBUG   Thread-15 :2173207 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/whiteashes/fedml/1xg2lq3e/wandb-summary.json?Expires=1610868294&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mQjPBwG7cIICcg495ziPtNV8gfAzymKX0n%2BhiJ0SQNXlnhRt9KtWQ5PuYIDlHsxdQY9tzAw4c1fUTH8VSljD9uhuim2XoYyIO%2BAUSkF%2FX4Err6MihsTNfSEudUdFA3kIoMl35abgcmOVZdwDHiBx5xBij7vo6TMQKLYB4a5IK3pdxlHT9C8bdQadMpHZ7QEki9ge0B66a0NyXvJGUYwxbPZ37r40Pr%2FaHjz0OIvG7GRRCFnsLq05JqPSSsJBIrxSFcQLqQcQ%2FKgDLMxbn5MUAvJDraAUAmJ%2FPQazpF7iaMdIh2NOysKsloijAqzvkI83kaZf0dXiMyHuImEK%2B8xe1Q%3D%3D HTTP/1.1" 200 0
+2021-01-16 15:24:54,968 INFO    Thread-15 :2173207 [upload_job.py:push():131] Uploaded file /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/wandb-summary.json
+2021-01-16 15:24:54,972 DEBUG   Thread-12 :2173207 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/whiteashes/fedml/1xg2lq3e/output.log?Expires=1610868294&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HAQI59PHyu7gAV%2FJ4BgdmPU%2Fz7IkkgIPh6%2BB03GSNkd5NQnL50eyxrho%2FyATeR5hUZ8EIlkNCNVUbf9RYi3dw8YlNAn2rbYNyNKJT2I6OSpzWtKYKPXd3vWSwaBBmXKEe1mlbOpZA6wJ4Z4Ym8osUJThjQVFQgCwP3cFcKO2KmZUZRkcNmXxR7FFdML98XNpQc2xD9XsEepQhZHSDv19WqHgnY0B2CtSaUJN%2BI4wBzlZIBcCzFu23QRCeQA%2BvKLtBDeXL2cPImBRVKzmGAnn8I4fhFRWhhiEmtuTumKEHoKV1szS0bK7rsbvTrlxHqrNEbnxPIJus6PhRsdFKNb8UA%3D%3D HTTP/1.1" 200 0
+2021-01-16 15:24:54,973 INFO    Thread-12 :2173207 [upload_job.py:push():131] Uploaded file /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/output.log
+2021-01-16 15:24:54,975 DEBUG   Thread-14 :2173207 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/whiteashes/fedml/1xg2lq3e/config.yaml?Expires=1610868294&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=OPU1IPiQ1v8MGTYaLFwxeOqlfJzSN%2FsEXsGjSMOWQ6T4i%2BUdRF4j35uImIQo1vzubS%2B6pdascpfutBiS5H4J8f2oNYfI86IZFACnbM4%2FAF3WDuFbForq1JbMeEyV4RhqH3WnWhOoH0N%2BEKwU8FYAiqV7BqbPfuPwPvl0Df%2FdbnmuBT1IRRPnMCnecJ1SwvF25mGth6irBTTmu4wqXipjEhjeFnjkOZhjUl%2Fg0GOmSZjb8eJasS8DLxc2M5cRnRAJtPMpudIDfPrgFtwWZcGQjZeVbSSXcfshHqImRyx0J%2BUVGFD1SKU3M5LplIgLgwZejuIjI1polPnqOn66QvkRYQ%3D%3D HTTP/1.1" 200 0
+2021-01-16 15:24:54,976 INFO    Thread-14 :2173207 [upload_job.py:push():131] Uploaded file /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/files/config.yaml
+2021-01-16 15:24:55,834 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: poll_exit
+2021-01-16 15:24:55,834 DEBUG   SenderThread:2173207 [sender.py:send():117] send: request
+2021-01-16 15:24:55,834 DEBUG   SenderThread:2173207 [sender.py:send_request():126] send_request: poll_exit
+2021-01-16 15:24:55,834 INFO    SenderThread:2173207 [file_pusher.py:join():175] waiting for file pusher
+2021-01-16 15:24:55,835 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: get_summary
+2021-01-16 15:24:55,835 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: sampled_history
+2021-01-16 15:24:55,836 DEBUG   HandlerThread:2173207 [handler.py:handle_request():55] handle_request: shutdown
+2021-01-16 15:24:55,836 INFO    HandlerThread:2173207 [handler.py:finish():274] shutting down handler
+2021-01-16 15:24:56,713 INFO    WriterThread:2173207 [datastore.py:close():258] close: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_152451-1xg2lq3e/run-1xg2lq3e.wandb
+2021-01-16 15:24:56,834 INFO    SenderThread:2173207 [sender.py:finish():756] shutting down sender
+2021-01-16 15:24:56,835 INFO    SenderThread:2173207 [file_pusher.py:finish():170] shutting down file pusher
+2021-01-16 15:24:56,835 INFO    SenderThread:2173207 [file_pusher.py:join():175] waiting for file pusher
+2021-01-16 15:24:56,835 INFO    MainThread:2173207 [internal.py:handle_exit():139] Internal process exited

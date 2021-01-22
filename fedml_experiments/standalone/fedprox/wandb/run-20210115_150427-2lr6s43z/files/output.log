@@ -1,0 +1,8 @@
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = cnn, output_dim = 10
+Traceback (most recent call last):
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 309, in <module>
+    model = create_model(args, model_name=args.model, output_dim=dataset[7])
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 262, in create_model
+    elif model_name == "resnet56":
+KeyboardInterrupt

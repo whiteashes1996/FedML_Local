@@ -1,0 +1,23 @@
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = cnn, output_dim = 10
+INFO:root:None
+INFO:root:############setup_clients (START)#############
+INFO:root:self.local_sample_number = 17
+INFO:root:self.local_sample_number = 72
+INFO:root:self.local_sample_number = 22
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 13
+INFO:root:self.local_sample_number = 12
+INFO:root:self.local_sample_number = 28
+INFO:root:self.local_sample_number = 14
+INFO:root:self.local_sample_number = 65
+INFO:root:############setup_clients (END)#############
+Traceback (most recent call last):
+  File "./main_fedavg.py", line 314, in <module>
+    fedavgAPI.train()
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedavg/fedavg_api.py", line 41, in train
+    w_global = self.model_trainer.get_model_params()
+  File "/home/whiteashes/Project/FedML/fedml_api/standalone/fedavg/my_model_trainer_classification.py", line 12, in get_model_params
+    return self.model.cpu().state_dict()
+AttributeError: 'NoneType' object has no attribute 'cpu'

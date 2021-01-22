@@ -1,0 +1,17 @@
+INFO:root:load_data. dataset_name = femnist
+Traceback (most recent call last):
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 304, in <module>
+    dataset = load_data(args, args.dataset)
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 121, in load_data
+    class_num = load_partition_data_federated_emnist(args.dataset, args.data_dir)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py", line 119, in load_partition_data_federated_emnist
+    train_data_local, test_data_local = get_dataloader(dataset, data_dir, batch_size, batch_size, client_idx)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py", line 46, in get_dataloader
+    train_x = np.vstack([train_h5[_EXAMPLE][client_id][_IMGAE][()] for client_id in train_ids])
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/FederatedEMNIST/data_loader.py", line 46, in <listcomp>
+    train_x = np.vstack([train_h5[_EXAMPLE][client_id][_IMGAE][()] for client_id in train_ids])
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/h5py/_hl/dataset.py", line 573, in __getitem__
+    self.id.read(mspace, fspace, arr, mtype, dxpl=self._dxpl)
+KeyboardInterrupt

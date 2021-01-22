@@ -1,0 +1,10 @@
+INFO:root:load_data. dataset_name = femnist
+Traceback (most recent call last):
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/h5py/_hl/files.py", line 408, in __init__
+    swmr=swmr)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/h5py/_hl/files.py", line 173, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 88, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = './../../../data/mnist/fed_emnist_train.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

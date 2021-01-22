@@ -1,0 +1,11 @@
+2021-01-14 19:55:47,957 INFO    MainThread:715160 [internal.py:wandb_internal():64] W&B internal server running at pid: 715160
+2021-01-14 19:55:47,958 DEBUG   HandlerThread:715160 [handler.py:handle_request():55] handle_request: check_version
+2021-01-14 19:55:47,959 DEBUG   SenderThread:715160 [sender.py:send():117] send: header
+2021-01-14 19:55:47,959 INFO    WriterThread:715160 [datastore.py:open_for_write():77] open: /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/wandb/run-20210114_195547-2g7x6moz/run-2g7x6moz.wandb
+2021-01-14 19:55:47,959 DEBUG   SenderThread:715160 [sender.py:send():117] send: request
+2021-01-14 19:55:47,959 DEBUG   SenderThread:715160 [sender.py:send_request():126] send_request: check_version
+2021-01-14 19:55:47,961 DEBUG   Thread-4  :715160 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): pypi.org:443
+2021-01-14 19:55:47,963 DEBUG   SenderThread:715160 [sender.py:send():117] send: run
+2021-01-14 19:55:47,965 DEBUG   SenderThread:715160 [git.py:repo():31] git repository is invalid
+2021-01-14 19:55:47,968 DEBUG   SenderThread:715160 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-14 19:55:49,096 DEBUG   SenderThread:715160 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443

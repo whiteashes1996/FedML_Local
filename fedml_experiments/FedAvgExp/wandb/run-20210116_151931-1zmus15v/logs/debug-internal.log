@@ -1,0 +1,15 @@
+2021-01-16 15:19:31,805 INFO    MainThread:2169848 [internal.py:wandb_internal():64] W&B internal server running at pid: 2169848
+2021-01-16 15:19:31,807 INFO    WriterThread:2169848 [datastore.py:open_for_write():77] open: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_151931-1zmus15v/run-1zmus15v.wandb
+2021-01-16 15:19:31,807 DEBUG   SenderThread:2169848 [sender.py:send():117] send: header
+2021-01-16 15:19:31,807 DEBUG   HandlerThread:2169848 [handler.py:handle_request():55] handle_request: check_version
+2021-01-16 15:19:31,807 DEBUG   SenderThread:2169848 [sender.py:send():117] send: request
+2021-01-16 15:19:31,807 DEBUG   SenderThread:2169848 [sender.py:send_request():126] send_request: check_version
+2021-01-16 15:19:31,808 DEBUG   Thread-4  :2169848 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): pypi.org:443
+2021-01-16 15:19:32,292 WARNING MainThread:2169848 [internal.py:wandb_internal():118] Internal process interrupt: 1
+2021-01-16 15:19:32,466 DEBUG   Thread-4  :2169848 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 52801
+2021-01-16 15:19:36,652 WARNING MainThread:2169848 [internal.py:wandb_internal():118] Internal process interrupt: 2
+2021-01-16 15:19:36,653 ERROR   MainThread:2169848 [internal.py:wandb_internal():121] Internal process interrupted.
+2021-01-16 15:19:36,719 INFO    SenderThread:2169848 [sender.py:finish():756] shutting down sender
+2021-01-16 15:19:36,807 INFO    WriterThread:2169848 [datastore.py:close():258] close: /home/whiteashes/Project/FedML/fedml_experiments/FedAvgExp/wandb/run-20210116_151931-1zmus15v/run-1zmus15v.wandb
+2021-01-16 15:19:36,812 INFO    HandlerThread:2169848 [handler.py:finish():274] shutting down handler
+2021-01-16 15:19:36,812 INFO    MainThread:2169848 [internal.py:handle_exit():139] Internal process exited

@@ -1,0 +1,9 @@
+INFO:root:load_data. dataset_name = mnist
+INFO:root:create_model. model_name = cnn_ori, output_dim = 10
+INFO:root:CNN_OriginalFedAvg + MNIST
+Traceback (most recent call last):
+  File "./main_fedavg.py", line 312, in <module>
+    model = create_model(args, model_name=args.model, output_dim=dataset[7])
+  File "./main_fedavg.py", line 246, in create_model
+    model = CNN_OriginalFedAvg()
+NameError: name 'CNN_OriginalFedAvg' is not defined

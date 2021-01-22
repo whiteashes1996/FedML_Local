@@ -1,0 +1,60 @@
+2021-01-18 16:37:40,997 INFO    MainThread:3798764 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-18 16:37:40,997 INFO    MainThread:3798764 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-18 16:37:40,997 INFO    MainThread:3798764 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-18 16:37:40,998 INFO    MainThread:3798764 [wandb_init.py:_log_setup():318] Logging user logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/wandb/run-20210118_163740-v2x364dh/logs/debug.log
+2021-01-18 16:37:40,998 INFO    MainThread:3798764 [wandb_init.py:_log_setup():319] Logging internal logs to /home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/wandb/run-20210118_163740-v2x364dh/logs/debug-internal.log
+2021-01-18 16:37:43,732 INFO    MainThread:3798764 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-18 16:37:43,733 INFO    MainThread:3798764 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.REDIRECT
+2021-01-18 16:37:43,734 INFO    MainThread:3798764 [wandb_run.py:_redirect():1178] Redirecting console.
+2021-01-18 16:37:43,734 INFO    MainThread:3798764 [redirect.py:install():205] install start
+2021-01-18 16:37:43,734 INFO    MainThread:3798764 [redirect.py:install():220] install stop
+2021-01-18 16:37:43,734 INFO    MainThread:3798764 [redirect.py:install():205] install start
+2021-01-18 16:37:43,735 INFO    MainThread:3798764 [redirect.py:install():220] install stop
+2021-01-18 16:37:43,735 INFO    MainThread:3798764 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-18 16:39:39,993 INFO    MainThread:3798764 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 0
+2021-01-18 16:39:39,994 INFO    MainThread:3798764 [wandb_run.py:_restore():1250] restore
+2021-01-18 16:39:39,995 INFO    MainThread:3798764 [redirect.py:uninstall():224] uninstall start
+2021-01-18 16:39:39,996 INFO    MainThread:3798764 [redirect.py:_stop():279] _stop: stdout
+2021-01-18 16:39:39,996 INFO    stdout    :3798764 [redirect.py:_pipe_relay():121] relay done saw last write: stdout
+2021-01-18 16:39:39,997 INFO    stdout    :3798764 [redirect.py:_pipe_relay():137] relay done done: stdout
+2021-01-18 16:39:39,998 INFO    MainThread:3798764 [redirect.py:_stop():285] _stop closed: stdout
+2021-01-18 16:39:39,998 INFO    MainThread:3798764 [redirect.py:_stop():291] _stop joined: stdout
+2021-01-18 16:39:39,998 INFO    MainThread:3798764 [redirect.py:_stop():293] _stop rd closed: stdout
+2021-01-18 16:39:39,999 INFO    MainThread:3798764 [redirect.py:uninstall():228] uninstall done
+2021-01-18 16:39:39,999 INFO    MainThread:3798764 [redirect.py:uninstall():224] uninstall start
+2021-01-18 16:39:39,999 INFO    MainThread:3798764 [redirect.py:_stop():279] _stop: stderr
+2021-01-18 16:39:39,999 INFO    MainThread:3798764 [redirect.py:_stop():285] _stop closed: stderr
+2021-01-18 16:39:40,000 INFO    stderr    :3798764 [redirect.py:_pipe_relay():121] relay done saw last write: stderr
+2021-01-18 16:39:40,000 INFO    stderr    :3798764 [redirect.py:_pipe_relay():137] relay done done: stderr
+2021-01-18 16:39:40,001 INFO    MainThread:3798764 [redirect.py:_stop():291] _stop joined: stderr
+2021-01-18 16:39:40,002 INFO    MainThread:3798764 [redirect.py:_stop():293] _stop rd closed: stderr
+2021-01-18 16:39:40,002 INFO    MainThread:3798764 [redirect.py:uninstall():228] uninstall done
+2021-01-18 16:39:40,551 INFO    MainThread:3798764 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "881003db680a40a8b9cf1e8bf0732258"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 635
+      total_bytes: 635
+    }
+  }
+}
+
+2021-01-18 16:39:42,560 INFO    MainThread:3798764 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "2361a1837ef24818bb62975ab0cd727f"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 3462
+      total_bytes: 3462
+    }
+  }
+}
+

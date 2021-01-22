@@ -1,0 +1,21 @@
+download = True
+INFO:root:*********partition data***************
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 304, in <module>
+    dataset = load_data(args, args.dataset)
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedavg/main_fedavg.py", line 205, in load_data
+    args.partition_alpha, args.client_num_in_total, args.batch_size)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/cifar10/data_loader.py", line 240, in load_partition_data_cifar10
+    partition_alpha)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/cifar10/data_loader.py", line 115, in partition_data
+    X_train, y_train, X_test, y_test = load_cifar10_data(datadir)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/cifar10/data_loader.py", line 104, in load_cifar10_data
+    cifar10_train_ds = CIFAR10_truncated(datadir, train=True, download=True, transform=train_transform)
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/cifar10/datasets.py", line 50, in __init__
+    self.data, self.target = self.__build_truncated_dataset__()
+  File "/home/whiteashes/Project/FedML/fedml_api/data_preprocessing/cifar10/datasets.py", line 54, in __build_truncated_dataset__
+    cifar_dataobj = CIFAR10(self.root, self.train, self.transform, self.target_transform, self.download)
+  File "/home/whiteashes/anaconda3/envs/fedml/lib/python3.7/site-packages/torchvision/datasets/cifar.py", line 85, in __init__
+    self.train_data = self.train_data.transpose((0, 2, 3, 1))  # convert to HWC
+KeyboardInterrupt

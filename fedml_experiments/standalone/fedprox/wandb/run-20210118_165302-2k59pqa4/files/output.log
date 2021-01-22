@@ -1,0 +1,5 @@
+INFO:root:load_data. dataset_name = mnist
+Traceback (most recent call last):
+  File "/home/whiteashes/Project/FedML/fedml_experiments/standalone/fedprox/main_fedprox.py", line 313, in <module>
+    model = create_model(args, model_name=args.model, output_dim=dataset[7])
+KeyboardInterrupt
