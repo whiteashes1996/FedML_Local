@@ -14,8 +14,6 @@ class Client:
         self.args = args
         self.device = device
         self.model_trainer = model_trainer
-    def update(self, client):
-        self.model_trainer.set_model_params(client.model_trainer.get_model_params())
 
     def update_local_dataset(self, client_idx, local_training_data, local_test_data, local_sample_number):
         self.client_idx = client_idx
@@ -27,7 +25,7 @@ class Client:
         return self.local_sample_number
 
     def train(self, w_global):
-        self.model_trainer.set_global_model_params(w_global)
+        self.model_trainer.set_model_params(w_global)
         self.model_trainer.train(self.local_training_data, self.device, self.args)
         weights = self.model_trainer.get_model_params()
         return weights

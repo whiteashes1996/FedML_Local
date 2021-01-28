@@ -10,11 +10,18 @@ except ImportError:
 import copy
 
 class MyModelTrainer(ModelTrainer):
+
     def get_model_params(self):
         return self.model.cpu().state_dict()
 
     def set_model_params(self, model_parameters):
         self.model.load_state_dict(model_parameters)
+
+    def get_global_model_params(self):
+        return self.model.cpu().global_feature.state_dict()
+
+    def set_global_model_params(self, model_parameters):
+        self.model.global_feature.load_state_dict(model_parameters)
 
     def model_difference(self, model_init, model_new):
         prox = 0.0
@@ -24,6 +31,7 @@ class MyModelTrainer(ModelTrainer):
             # proximal_term += torch.sum(torch.abs((w-w_t)**2))
             prox += (w - w_t).norm(2)
         return prox
+
     def train(self, train_data, device, args):
         model = self.model
 
@@ -67,7 +75,7 @@ class MyModelTrainer(ModelTrainer):
                 batch_loss.append(loss.item())
             epoch_loss.append(sum(batch_loss) / len(batch_loss))
             # logging.info('Client Index = {}\tEpoch: {}\tLoss: {:.6f}'.format(
-            #     self.client_idx, epoch, sum(epoch_loss) / len(epoch_loss)))
+            # self.client_idx, epoch, sum(epoch_loss) / len(epoch_loss)))
 
     def test(self, test_data, device, args):
         model = self.model

@@ -15,7 +15,6 @@ class MyModelTrainer(ModelTrainer):
 
     def set_model_params(self, model_parameters):
         self.model.load_state_dict(model_parameters)
-
     def model_difference(self, model_init, model_new):
         prox = 0.0
         # iterate through the current and global model parameters
